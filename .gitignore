@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.expo/
+.next/
+dist/
+build/
+android/app/build/
+*.apk
+*.aab
+
+# Secrets (never commit these)
+.env
+.env.*
+!.env.example
+google-services.json
+*.jks
+*.keystore
+*.p12
+
+# Misc
+*.log
+.DS_Store
